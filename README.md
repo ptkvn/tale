@@ -3,9 +3,9 @@
 <h2><font color="red"> TALE </font></center> <br> <center>Training-free Cross-domain Image Composition via
 Adaptive Latent Manipulation and Energy-guided Optimization</h2>
 
-[Kien T. Pham](https://tkpham3105.github.io/), [Jingye Chen](https://jingyechen.github.io/), [Qifeng Chen](https://cqf.io)
+[Kien T. Pham](https://tkpham.me), [Jingye Chen](https://jingyechen.github.io/), [Qifeng Chen](https://cqf.io)
 
-<a href='https://doi.org/10.1145/3664647.3681079'><img src='https://img.shields.io/badge/MM24-Proceedings-blue'></a> <a href='https://arxiv.org/abs/2408.03637'><img src='https://img.shields.io/badge/ArXiv-2408.03637-red'></a> <a href='https://tkpham3105.github.io/TALE/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  ![Views](https://visitor-badge.laobi.icu/badge?page_id=tkpham3105.TALE&left_color=green&right_color=red) [![GitHub](https://img.shields.io/github/stars/tkpham3105/TALE?style=social)](https://github.com/tkpham3105/TALE)
+<a href='https://doi.org/10.1145/3664647.3681079'><img src='https://img.shields.io/badge/MM24-Proceedings-blue'></a> <a href='https://arxiv.org/abs/2408.03637'><img src='https://img.shields.io/badge/ArXiv-2408.03637-red'></a> <a href='https://tale.tkpham.me'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  ![Views](https://visitor-badge.laobi.icu/badge?page_id=ptkvn.tale&left_color=green&right_color=red) [![GitHub](https://img.shields.io/github/stars/ptkvn/tale?style=social)](https://github.com/ptkvn/tale)
 </div>
 
 Official implementation of [TALE: Training-free Cross-domain Image Composition via Adaptive Latent Manipulation and Energy-guided Optimization](https://doi.org/10.1145/3664647.3681079).
@@ -26,8 +26,8 @@ A VRAM of 23 GB is recommended, though this may vary depending on the input samp
 
 ### Installing Environment
 ```
-git clone https://github.com/tkpham3105/TALE.git
-cd TALE
+git clone https://github.com/ptkvn/tale.git
+cd tale
 conda create --name tale python=3.10 -y
 conda activate tale
 pip install -r requirements.txt
@@ -73,7 +73,7 @@ We have showcased some results of cross-domain image composition using TALE belo
 ### Photorealism-Cartoon animation cross-domain composition results.
 ![cartoon](assets/cartoon.png)
 
-More results can be found on our [Project page](https://tkpham3105.github.io/TALE/).
+More results can be found on our [Project page](https://tale.tkpham.me).
 
 ## ✏️ Acknowledgments
 Our work is inspired thanks to the following contributors: [TF-ICON](https://github.com/Shilin-LU/TF-ICON), [FreeDoM](https://github.com/vvictoryuki/FreeDoM), [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), and [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt).
